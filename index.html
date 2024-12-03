@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura em Paris</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p> Lux e um jovem artista que recebe uma carta misteriosa: " a verdadeira arte vive nas ruas de paris, siga o rastro e encontre o maior segredo artístico da história" 
+                sem hesitar, você embarca para paris , munido apenas de um caderno de esboços e um mapa com símbolos intrigantes. 
+                Em Montmartre, um artista de rua entrega uma mensagem: "na casa onde os sonhos dançam, o primeiro segredo é revelado"
+                 Você encontra o antigo cabaret Le Moulin Rouge e descobre um mural escondido. Ele contém símbolos que parecem ser pistas cifradas.</p>
+            <button class="btn-proximo" data-proximo="1"> Decifrar o mural. </button>
+            <button class="btn-proximo" data-proximo="2"> Ignorar o mural. </button>
+         </div>
+         <div class="passo" id="passo-1">
+            <img src="cenario-passo1.png" alt="">
+            <p> No museu do Louvre, você nota algo diferente na pintura as bodas de caná. Após investigar, encontra uma chave e um endereço misterioso:"Rue des Rosiers 17, Marais" </p>
+            <button class="btn-proximo" data-proximo="3"> investigar o endereço </button>
+            <button class="btn-proximo" data-proximo="4"> Explorar mais o Louvre </button>
+         </div>
+         <div class="passo" id="passo-2">
+            <p> Chegando ao Marais, você encontra uma galeria chamada "La Roseraie". O dono revela que uma obra-prima está escondida no teto de uma catedral esquecida, mas entrega apenas um pedaço de vitral com símbolos que só aparecem à noite. </p>
+            <button class="btn-proximo" data-proximo="5"> seguir para as catedrais de Saint-Sulpice </button>
+            <button class="btn-proximo" data-proximo="6"> explorar outros bairros artísticos </button>
+         </div>
+         <div class="passo" id="passo-3">
+            <p> Na catedral, você descobre um manuscrito sobre "A Ordem dos Artistas Ocultos" e a localização da obra-prima em Belleville. </p>
+            <button class="btn-proximo" data-proximo="7"> Seguir imediatamente para Belleville </button> 
+            <button class="btn-proximo" data-proximo="8"> explorar mais </button> 
+         </div>
+         <div class="passo" id="passo-4">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado. </p>
+            <button class="btn-proximo" data-proximo="9">divulgar a obra para o mundo</button>
+            <button class="btn-proximo" data-proximo="10">manter a obra em segredo</button>
+         </div>
+        </div>
+    </main>
+</body>
+<!-- código omitido -->
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
